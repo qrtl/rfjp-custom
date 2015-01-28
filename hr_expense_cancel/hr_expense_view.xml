@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <data>                    
                     <xpath expr="/form/header/button[@name='refuse']" position="after">
-                        <button name="cancel" states="draft,done" string="Cancel" type="workflow" groups="base.group_hr_user" />
+                        <button name="cancel" states="draft,done,paid" string="Cancel" type="workflow" groups="base.group_hr_user" />
                     </xpath>	
 				</data>
             </field>
